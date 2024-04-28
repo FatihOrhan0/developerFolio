@@ -99,7 +99,7 @@ const educationInfo = {
       logo: require("./assets/images/RPILogo.png"),
       subHeader: "Bachelor's of Science in Computer Science, Minor in Economics",
       duration: "August 2021 - May 2024",
-      desc: "Concentration in AI & Data",
+      desc: "GPA: 3.98, Concentration: AI & Data",
       descBullets: [
         "Dean's Honor List in Every Semester",
         "Leadership Award",
