@@ -43,15 +43,7 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
-                  {project.image ? (
-                    <div className="project-image">
-                      <img
-                        src={project.image}
-                        alt={project.projectName}
-                        className="card-image"
-                      ></img>
-                    </div>
-                  ) : null}
+                  
                   <div className="project-detail">
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
@@ -67,7 +59,7 @@ export default function StartupProject() {
                     </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
-                        {project.footerLink.map((link, i) => {
+                        {/* {project.footerLink.map((link, i) => {
                           return (
                             <span
                               key={i}
@@ -79,7 +71,7 @@ export default function StartupProject() {
                               {link.name}
                             </span>
                           );
-                        })}
+                        })} */}
                       </div>
                     ) : null}
                   </div>

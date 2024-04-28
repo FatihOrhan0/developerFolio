@@ -174,7 +174,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some side projects I worked on.",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
@@ -200,7 +200,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
