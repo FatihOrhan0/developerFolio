@@ -5,6 +5,13 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
+  function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
+    var win = window.open(url, "_blank");
+    win.focus();
+  } 
 
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
@@ -52,7 +59,7 @@ export default function StartupProject() {
                     </p>
                     {project.footerLink ? (
                       <div className="project-card-footer">
-                        {/* {project.footerLink.map((link, i) => {
+                        {project.footerLink.map((link, i) => {
                           return (
                             <span
                               key={i}
@@ -64,7 +71,7 @@ export default function StartupProject() {
                               {link.name}
                             </span>
                           );
-                        })} */}
+                        })}
                       </div>
                     ) : null}
                   </div>

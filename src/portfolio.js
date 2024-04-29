@@ -99,7 +99,7 @@ const educationInfo = {
       logo: require("./assets/images/RPILogo.png"),
       subHeader: "Bachelor's of Science in Computer Science, Minor in Economics",
       duration: "August 2021 - May 2024",
-      desc: "GPA: 3.98, Concentration: AI & Data",
+      desc: "GPA: 3.98, Concentration: AI, ML & Data Science",
       descBullets: [
         "Dean's Honor List in Every Semester",
         "Leadership Award",
@@ -150,7 +150,7 @@ const workExperiences = {
       company: "RPI",
       companylogo: require("./assets/images/RPILogo.png"),
       date: "Aug 2022 – May 2024",
-      desc: "Helped the students for Intro to Algorithms and Foundations of CS courses with office hours, labs, and course guides."
+      desc: "Helped the students for Intro to Algorithms and Foundations of CS courses by holding office hours, labs, and preparing course guides."
     },
     {
       role: "Teaching Assistant",
@@ -177,25 +177,23 @@ const bigProjects = {
   subtitle: "Some side projects I worked on.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Parallelized Stock market Simulation",
+      projectDesc: "Conducted a high-performance market simulation on the AiMOS supercomputer using a concurrent bounded knapsack algorithm to benchmark 5 different investing strategies in 10 different propensity levels.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Paper",
+          url: "https://drive.google.com/file/d/15LAABono2oUvfB9gDdoZ83GY3Hm31M9o/view?usp=drive_link"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Sub-Quantile Optimization",
+      projectDesc: "Researched robust technique that maximizes prediction accuracy of linear and logistic regression models learned from  corrupt data using optimization over quantiles of data.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Paper",
+          url: "https://drive.google.com/file/d/1LvkcBTkgEH_kHqYOHgK-27Irk6JGutkI/view?usp=drive_link"
         }
       ]
     }
