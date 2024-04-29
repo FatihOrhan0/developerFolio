@@ -213,7 +213,7 @@ const achievementSection = {
     {
       title: "Advanced SQL",
       subtitle:
-        "",
+        "For completing Hackerrank's advanced SQL challenge",
       image: require("./assets/images/SQLlogo.png"),
       imageAlt: "SQL Logo",
       footerLink: [
